@@ -8,7 +8,7 @@ export const AppContext = createContext();
 const AppContextProvider = (props) => {
     const currency = 'Rs. '; // Simply change with any symbol currency
     const deliveryFee = 250;
-    const backendUrl = "http://localhost:3000";
+    const backendUrl = "https://buy-and-sell-pre-owned-goods-backend.onrender.com/";
     const [search, setSearch] = useState('');
     const [showSearch, setShowSearch] = useState(false);
     const [cartItems, setCartItems] = useState({});
